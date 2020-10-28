@@ -6,8 +6,8 @@ To build use:
 
 ```
 sudo apt update && sudo apt upgrade
-sudo apt-get install gcc make git unzip wget xz-utils libsdl2-dev libsdl2-mixer-dev libfreeimage-dev libfreetype6-dev libcurl4-openssl-dev rapidjson-dev libasound2-dev libgl1-mesa-dev build-essential libboost-all-dev cmake fonts-droid-fallback libvlc-dev libvlccore-dev vlc-bin texinfo premake4 golang libssl-dev curl patchelf lzop bc libncurses5-dev libc6-i386 lib32stdc++6 zlib1g:i386
-git clone https://github.com/shantigilbert/EmuELEC.git EmuELEC    
+sudo apt-get install gcc make git unzip wget xz-utils libsdl2-dev libsdl2-mixer-dev libfreeimage-dev libfreetype6-dev libcurl4-openssl-dev rapidjson-dev libasound2-dev libgl1-mesa-dev build-essential libboost-all-dev cmake fonts-droid-fallback libvlc-dev libvlccore-dev vlc-bin texinfo premake4 golang libssl-dev curl patchelf xmlstarlet lzop bc libncurses5-dev libc6-i386 lib32stdc++6 zlib1g:i386
+git clone https://github.com/british-choi/EmuELEC.git EmuELEC    
 cd EmuELEC  
 git checkout master  
 PROJECT=Amlogic ARCH=arm DISTRO=EmuELEC make image   
